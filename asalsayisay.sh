@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Desc: 100'e Asal Sayilari sayar
+##Desc: 100'e Asal Sayilari sayar
 i=0
 j=0
 for i in $(seq 2 8)
