@@ -1,4 +1,4 @@
-** SORU: **
+**SORU:**
 
 
 abc dizini altında a b ve c isimli klasörler oluştur. Bu klasörlerin altına sırası ile 1, 2 ve 3 isimli dosyalar oluştur../abc
