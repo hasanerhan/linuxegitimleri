@@ -1,4 +1,4 @@
-SORU:
+** SORU: **
 abc dizini altında a b ve c isimli klasörler oluştur. Bu klasörlerin altına sırası ile 1, 2 ve 3 isimli dosyalar oluştur../abc
   ./abc/a
   ./abc/a/1
@@ -15,7 +15,7 @@ Daha sonra ./abc/a ve ./abc/b dizininde bulunan sırası ile 1 ve 2 isimli dosya
   ./abc/c/2
   ./abc/b
 
-CEVAP ve AÇIKLAMALAR
+** CEVAP ve AÇIKLAMALAR: **
 mkdir abc #abc adinda bir klasor olusturdum.
 cd abc #abc klasorune girdim.
 mkdir a b c #bu komut a,b,c adinda uc yeni klasor olusturur.
