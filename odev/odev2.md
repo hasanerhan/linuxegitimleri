@@ -20,7 +20,9 @@
 -rw-r--r-- 1 irmakguney staff 0 Ağu 10 18:30 ./abc/c/1 #en bastaki dosya tipi ve izinleridir.İlk karakter - dosya tipidir - bir dosya oldugunu d ise bir klasor oldugunu gosterir.rw- dosyanin sahibinin izinleridir.(r)okuma izni vardir,(w)yazma izni vardir,(-)calistirma izni yoktur.rw- dosyanin sahibinin izinleridir.r-- dosyanin ait oldugu grubun izinleridir,r-- diger kullanicilarin izinleridir.(./abc/c/1)dosyanin adidir.irmakguney:dosyanin sahibi olan kullanici adidir.0:Dosyanin boyutudur.ait oldugu grubun ismi staff.
 
 
-chmod 420 ./abc/c/1 #chmod komutu bir dosyanin izinlerini degistirmeye yarar 420 ise dosyanin yeni izinlerini sayisal olarak belirler.4:okuma(r),2:yazma(w)1:calistirma(x).4 
+chmod 420 ./abc/c/1 
+
+chmod komutu bir dosyanin izinlerini degistirmeye yarar 420 ise dosyanin yeni izinlerini sayisal olarak belirler.4:okuma(r),2:yazma(w)1:calistirma(x).4 
 
 
 (kullanici): sadece okuma izin verir.2(grup):sadece yazma izni verir. 0(digerleri):hicbir izin vermez.
