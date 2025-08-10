@@ -53,7 +53,7 @@ CEVAP ve A??IKLAMALAR:
 > ll ./abc/c/1   bu komut belirtilen dosyanin ozelliklerini,dosya turunu,izinlerini,sahibini,grubunu,boyutunu,son degistirilme tarihini ve adini listeledi.
 
 
-> -rw-r--r-- 1 irmakguney staff 0 A??u 10 18:30 ./abc/c/1 
+> -rw-r\-\-r-- 1 irmakguney staff 0 A??u 10 18:30 ./abc/c/1 
 
 en bastaki dosya tipi ve izinleridir.
 
