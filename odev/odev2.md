@@ -24,7 +24,7 @@
 en bastaki dosya tipi ve izinleridir.??lk karakter - dosya tipidir - bir dosya oldugunu d ise bir klasor oldugunu gosterir.rw- dosyanin sahibinin izinleridir.(r)okuma izni vardir,(w)yazma izni vardir,(-)calistirma izni yoktur.rw- dosyanin sahibinin izinleridir.r-- dosyanin ait oldugu grubun izinleridir,r-- diger kullanicilarin izinleridir.(./abc/c/1)dosyanin adidir.irmakguney:dosyanin sahibi olan kullanici adidir.0:Dosyanin boyutudur.ait oldugu grubun ismi staff.
 
 
-> chmod 420 ./abc/c/1 #chmod komutu bir dosyanin izinlerini degistirmeye yarar 420 ise dosyanin yeni izinlerini sayisal olarak belirler.4:okuma(r),2:yazma(w)1:calistirma(x).4 
+> chmod 420 ./abc/c/1   chmod komutu bir dosyanin izinlerini degistirmeye yarar 420 ise dosyanin yeni izinlerini sayisal olarak belirler.4:okuma(r),2:yazma(w)1:calistirma(x).4 
 =======
 bu komut belirtilen dosyanin ozelliklerini,dosya turunu,izinlerini,sahibini,grubunu,boyutunu,son degistirilme tarihini ve adini listeledi.
 
@@ -47,10 +47,10 @@ chmod komutu bir dosyanin izinlerini degistirmeye yarar 420 ise dosyanin yeni iz
 
 
 <<<<<<< HEAD
-chmod 635 ./abc/c/2 #bu komut sayesinde 2 nolu dosyanin izinlerini degistirecegiz chmod komutuna verdigimiz 635 sayisi,dosyanin yeni izinlerini belirler.6:(kullanici icin)= okuma ve yazma izni verir.3:(grup icin)yazma ve calistirma izni verir.5(digerleri icin):okuma ve calistirma izni verir.
+chmod 635 ./abc/c/2   bu komut sayesinde 2 nolu dosyanin izinlerini degistirecegiz chmod komutuna verdigimiz 635 sayisi,dosyanin yeni izinlerini belirler.6:(kullanici icin)= okuma ve yazma izni verir.3:(grup icin)yazma ve calistirma izni verir.5(digerleri icin):okuma ve calistirma izni verir.
 =======
 CEVAP ve A??IKLAMALAR:
-> ll ./abc/c/1 #bu komut belirtilen dosyanin ozelliklerini,dosya turunu,izinlerini,sahibini,grubunu,boyutunu,son degistirilme tarihini ve adini listeledi.
+> ll ./abc/c/1   bu komut belirtilen dosyanin ozelliklerini,dosya turunu,izinlerini,sahibini,grubunu,boyutunu,son degistirilme tarihini ve adini listeledi.
 
 
 > -rw-r--r-- 1 irmakguney staff 0 A??u 10 18:30 ./abc/c/1 #en bastaki dosya tipi ve izinleridir.
@@ -80,7 +80,7 @@ CEVAP ve A??IKLAMALAR:
 > ait oldugu grubun ismi staff.
 
 
-> chmod 420 ./abc/c/1 #chmod komutu bir dosyanin izinlerini degistirmeye yarar 420 ise dosyanin yeni izinlerini sayisal olarak belirler.
+> chmod 420 ./abc/c/1   chmod komutu bir dosyanin izinlerini degistirmeye yarar 420 ise dosyanin yeni izinlerini sayisal olarak belirler.
 
 
 > 4:okuma(r),2:yazma(w)1:calistirma(x).4 
@@ -90,7 +90,7 @@ CEVAP ve A??IKLAMALAR:
 > 2(grup):sadece yazma izni verir. 0(digerleri):hicbir izin vermez.
 
 
-> chmod 635 ./abc/c/2 #bu komut sayesinde 2 nolu dosyanin izinlerini degistirecegiz chmod komutuna verdigimiz 635 sayisi,dosyanin yeni izinlerini belirler.
+> chmod 635 ./abc/c/2   bu komut sayesinde 2 nolu dosyanin izinlerini degistirecegiz chmod komutuna verdigimiz 635 sayisi,dosyanin yeni izinlerini belirler.
 
 
 > 6:(kullanici icin)= okuma ve yazma izni verir.
