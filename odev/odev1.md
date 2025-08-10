@@ -46,7 +46,7 @@ Daha sonra ./abc/a ve ./abc/b dizininde bulunan sırası ile 1 ve 2 isimli dosya
 > ./abc/b
 
 
-** CEVAP ve AÇIKLAMALAR: **
+**CEVAP ve AÇIKLAMALAR:**
 
 
 >mkdir abc #abc adinda bir klasor olusturdum.
@@ -88,7 +88,7 @@ Daha sonra ./abc/a ve ./abc/b dizininde bulunan sırası ile 1 ve 2 isimli dosya
 >ls c #c klasorunu listelemek icin ls komutunu kullandim.
 
 
-** ALTERNATIF COZUM **
+**ALTERNATIF COZUM**
 
 
 > mkdir -p ./abc/{a,b,c} # abc dizini olmasa bile bir tane oluşturur ve altına a, b ve c dizinlerini oluşturur
