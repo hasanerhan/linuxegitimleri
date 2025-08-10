@@ -1,5 +1,0 @@
-SORU:
- - odev1 dosyasındaki ./abc/c klasöründe bulunan 1 dosyanın kullanıcı ve izin durumalarını göster. ve açıklayıcı bilgi yaz. Örneğin x dosyasının kullancısı irmak grubu wheel ve irmak kullanıcısının izni okuma, yazma ve çalıştırma vb. 
- - 1 nolu dosyanoon  izin durumalarını kullanıcı için sadece okuma grup için sadece yazma ve diğerleri için hiç izin vermeyecek duruma getir.
-
-CEVAP ve AÇIKLAMALAR:
