@@ -29,3 +29,10 @@ ls c #c klasorunu listeledim.
 mv a/1 c/ #a klasorundeki 1 dosyasini c klasorune tasidim.
 mv b/2 c/ #b klasorundeki 2 dosyasini c klasorune tasidim.
 ls c #c klasorunu listelemek icin ls komutunu kullandim.
+
+ALTERNATİG ÇÖZÜM
+mkdir -p ./abc/{a,b,c} # abc dizini olmasa bile bir tane oluşturur ve altına a, b ve c dizinlerini oluşturur
+touch abc/a/1 abc/b/2 abc/c/3  | 1,2 ve 3 dosyalarını sırası ile a, b ve c dizileri altında oluşturur.
+mv abc/a/1 abc/b/2 abc/c/ 
+
+
