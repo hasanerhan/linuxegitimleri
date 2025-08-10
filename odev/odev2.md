@@ -13,7 +13,9 @@
 **CEVAP ve AÇIKLAMALAR:**
 
 
-> ll ./abc/c/1 #bu komut belirtilen dosyanin ozelliklerini,dosya turunu,izinlerini,sahibini,grubunu,boyutunu,son degistirilme tarihini ve adini listeledi.
+> ll ./abc/c/1
+>
+> bu komut belirtilen dosyanin ozelliklerini,dosya turunu,izinlerini,sahibini,grubunu,boyutunu,son degistirilme tarihini ve adini listeledi.
 
 
 <<<<<<< HEAD:odev/odev2.md
