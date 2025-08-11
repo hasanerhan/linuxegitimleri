@@ -4,5 +4,90 @@ ls komutunun parametrelerini kullanarak listeme islemleri yap ve acikla
 man komutu ile find, ls, pwd komutlari hakkinda bilgi al ve ornek olarak ls komutunda kullan. diger komutlara daha sonra gececegiz
  
 
+ **CEVAPLAR VE ACİKLAMALAR**
+ >  ls /Users/irmakguney/Documents/linuxegitim/irmak/abc/c
+ #absolute path ile klasor listelendi bu komut kok dizinden baslayarak tam yolu belirtir ve dogrudan c klsorunun icini listeler.
+
+
+ > ls ../c  #eger su an /Users/irmakguney/Documents/linuxegitim/irmak/abc/c klasorundeysen, ../c ifadesi seni bir ust dizine yani abc klasorune cikarir ve oradan c klasorune yonlendirir.Boylece c klasorunun icerigini listeler.
+
+
+ > man ls  #terminalde ls komutunun kullanim kilavuzunu acar ve parametrelerin tum detaylarini gosterir.
+
+
+ > ls -l  #uzun liste formatinda gosterir.Dosya/dizin izinleri,sahip bilgisi,boyut,degistirilme tarihi gibi detaylari verir.
+
+
+ > ls -a  #gizli dosya ve klasorleride gosterir.
+
+
+ > ls -lh  #boyutlari insan tarafindan okunabilir formata cevirir genellikle -l ile birlikte kullanilir.
+
+
+ > ls -lR  #alt dizinler dahil tum icerigi uzun liste olarak listeler.
+
+
+> ls -lt  #dosyalari son degistirilme tarihine gore siralar,en yeni en ustte olur.
+
+
+> ls -lS  #dosyalari boyutlarina gore siralar,en buyuk en ustte olur.
+
+
+> ls -lah  #gizli dosyalar dahil uzun liste formatinda okunabilir boyutlarla listele.
+
+
+##FIND##
+
+> man find #find komutunun klavuzunu acar.
+
+
+> find -name #isim ile dosya/dizin arar.
+
+
+> find -type #dosya turune gore arama yapar
+
+
+> find -mtime son degistirilme zamanina gore arama.
+
+
+> find -size #dosya boyutuna gore arama.
+
+
+> find -exec #bulunan dosyalara komut calıstırır.
+
+##ORNEKLER##
+
+> find . -name "*.sh"  #bulundugun dizinden baslayarak .sh uzantili dosyalari arar.
+
+
+> find /tmp -type d  #/tmp dizinindeki tum klasorleri listeler.
+
+
+> find /var/log -mtime -7  #son 7 gun icinde degistirilmis dosyalari arar.
+
+
+> find . -size +10M  #10 megabayttan buyuk dosyalari bulur.
+
+
+##PWD##
+
+> man pwd  #pwd komutunun kilavuzunu acar.
+
+
+> pwd -L  #mevcut diznin mantiksal yolunu gosterir.
+
+
+> pwd -P  #sembolik linkler cozulerek gercek dizin yolunu gosterir.
+
+
+##CD KOMUTUNU KİSALTMAK İCİN KİSAYOL KULLANİMİ##
+
+> cd abc  #normalde klasor degistirmek icin bu komutu yazariz.
+
+
+> irmak abc   #cd kullanmadan bu komutla abc klasorune geciyorsa aslinda irmak diye kisa bir komut var ve o cd komutunun yerine geciyor boylece daha hizli ve kolay klasor degistirebiliyorsun.Bunu alias diye adlandirabiliriz.
+
+
+
 
 
