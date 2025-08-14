@@ -1,0 +1,49 @@
+#!/bin/bash
+# Linux file search örnek scripti
+
+# 1. Mevcut dizinde .txt dosyalarını bul ve listele
+echo "TXT dosyaları:"
+find . -type f -name "*.txt"
+
+
+# 2. .log dosyalarında "error" kelimesini ara
+echo "Log dosyalarında error arama:"
+find . -type f -name "*.log" | xargs grep -i "error"
+
+
+# 3. Dosya adında tek haneli sayı olanları bul
+echo "Dosya adında tek haneli sayı olanlar:"
+find . -regex ".*[0-9]\.txt"
+
+
+# 4. Her adımı açıklama ile göster
+echo "Arama tamamlandı."
+
+
+# 5. Son 7 günde değişmiş dosyalar
+find . -type f -mtime -7
+
+
+# 6. .log dosyalarını backup klasörüne kopyala
+mkdir -p backup
+find . -iname "*.log" | xargs -I {} cp {} backup/
+
+
+# 7. Bulunan .log dosyalarını özel formatla yazdır
+find . -iname "*.log" | xargs -I {} echo "Bulundu: {}"
+
+
+# 8. Sadece dizinleri listele
+find . -type d
+
+
+# 9. Sembolik linkleri listele
+find . -type l
+
+
+# 10. İçeriğinde "password" geçen dosyalar
+find . -type f -exec grep -l "password" {} \;
+
+
+# 11. .conf dosyalarını "Bulundu" mesajıyla yazdır
+find . -iname "*.conf" | xargs -I {} echo "Bulundu: {}"
